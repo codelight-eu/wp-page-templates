@@ -1,0 +1,16 @@
+{
+  "name": "codelight-eu/page-templates",
+  "version": "1.0",
+  "description": "Register and render Page templates from your plugin",
+  "homepage": "https://github.com/codelight-eu/page-templates",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Codelight\\PageTemplates\\": "src/"
+    }
+  }
+}
