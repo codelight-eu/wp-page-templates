@@ -4,7 +4,6 @@
   "description": "Register and render Page templates from your plugin",
   "homepage": "https://github.com/codelight-eu/wp-page-templates",
   "license": "MIT",
-  "minimum-stability": "dev",
   "require": {
     "php": ">=5.3.0"
   },
