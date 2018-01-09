@@ -33,8 +33,8 @@ class PageTemplates
     /**
      * Add a new custom template.
      *
-     * @param $file
-     * @param $name
+     * @param $file string Full path to the template file
+     * @param $name string Human-readable template name
      */
     public function addTemplate($file, $name)
     {
