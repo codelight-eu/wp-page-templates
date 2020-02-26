@@ -38,6 +38,7 @@ class PageTemplates
      */
     public function addTemplate($file, $name)
     {
+        $file = str_replace('\\', '/', $file);
         $this->templates[$file] = $name;
     }
 
